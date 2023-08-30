@@ -1,4 +1,5 @@
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -9,7 +10,6 @@ import java.nio.file.Path;
 import java.util.Scanner;
 
 import static org.junit.Assert.assertEquals;
-import org.junit.Test;
 
 /**
  * Created by LaunchCode
@@ -72,3 +72,4 @@ public class TechJobsTest {
 
 
 }
+//testpush
