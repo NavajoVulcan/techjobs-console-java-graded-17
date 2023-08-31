@@ -58,6 +58,7 @@ public class TechJobs {
 
                 // What is their search term?
                 System.out.println("\nSearch term:");
+
                 String searchTerm = in.nextLine();
 
                 if (searchField.equals("all")) {
@@ -123,14 +124,13 @@ public class TechJobs {
         } else {
             //loop through array list of some jobs
             for (HashMap<String, String> job : someJobs) {
-                System.out.println("*****");
+                System.out.println("\n*****");
 
                 for (Map.Entry<String, String> kvp : job.entrySet()) {
                     System.out.println(kvp.getKey() + ": " + kvp.getValue()
                     );
                 }
                 System.out.println("*****");
-                System.out.println();
             }
 
         }
